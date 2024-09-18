@@ -1,0 +1,103 @@
+
+/*admin-dashboard*/
+
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #BFBFBF;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #F5F5F5;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-weight: bold;
+  color: #333333;
+}
+
+tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions a {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 16px;
+  
+}
+
+.actions a.btn-add {
+  background-color: #2196F3;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  opacity: 0.8;
+}
+
+.actions a:active {
+  background-color: #1E8449;
+  outline: none;
+}
+
+ .btn-edit, .btn-delete {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.btn-edit {
+  background-color: #FFC107;
+}
+
+.btn-delete {
+  background-color: #F44336;
+}
+
+ .btn-edit:hover, .btn-delete:hover {
+  opacity: 0.8;
+}
+
+ .btn-edit:active, .btn-delete:active {
+  background-color: #1E8449;
+  outline: none;
+}
+
+#message{
+  color: #82241d;
+}
+
